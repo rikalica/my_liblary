@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Books</h1>
+<h1>Git管理された蔵書アプリの一覧</h1>
 
 <table>
   <thead>
@@ -22,6 +22,7 @@
         <td><%= book.price %></td>
         <td><%= book.company %></td>
         <td><%= book.sale_date %></td>
+        <td><%= book.img_url %></td>
         <td><%= link_to 'Show', book %></td>
         <td><%= link_to 'Edit', edit_book_path(book) %></td>
         <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
